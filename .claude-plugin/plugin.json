@@ -1,0 +1,11 @@
+{
+  "name": "feder-skills",
+  "version": "0.1.0",
+  "description": "Skills that shape how Claude reasons and explains: full-picture, compare-states, options-analysis, explain-simply, greenfield, afk.",
+  "author": {
+    "name": "federbenjamin"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/federbenjamin/feder-skills",
+  "repository": "https://github.com/federbenjamin/feder-skills"
+}
