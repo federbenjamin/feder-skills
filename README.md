@@ -36,7 +36,7 @@ Each skill runs as `/<name>` in a Claude Code session, with what you want it app
 /afk
 ```
 
-Skills that render a page (`/full-picture`, `/compare-states`) use `SendUserFile` when it exists and name the file's path otherwise. Each skill's full instructions are its `skills/<name>/SKILL.md`.
+`/full-picture` and `/compare-states` write one HTML file and open it in Claude Code's side panel where the session has one; otherwise they tell you the file's path. Each skill's full instructions are its `skills/<name>/SKILL.md`.
 
 ## Contributing
 
