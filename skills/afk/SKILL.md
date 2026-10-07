@@ -38,7 +38,7 @@ If later work resolves an open question, move it to Decisions with the answer.
 When the queue is exhausted — every item done, blocked, or parked — two final steps, in this order:
 
 1. **Write a handoff doc** (`/handoff` when you have it; otherwise a markdown file beside the bank file: what was done, what is parked and why, the next step), mission = the parked work. It cites the bank file path, so the returning human or a post-compaction session has both. This is the run's durable record; the chat log is not.
-2. **Stop every shell you started.** Kill each background process still running — dev servers, watchers, tails, long polls. An unattended run leaves nothing burning behind it. If one genuinely must survive, say which and why. Shells are the only thing you remove: a file the run made and the repo cannot keep (a test-only agent definition, a hook, an index) is moved to the same agent-docs folder as the handoff, never deleted.
+2. **Stop every shell you started.** Kill each background process still running — dev servers, watchers, tails, long polls. An unattended run leaves nothing burning behind it. If one genuinely must survive, say which and why. Shells are the only thing you remove: a file the run made and the repo cannot keep (a test-only agent definition, a hook, an index) is moved to the same folder as the handoff doc, never deleted.
 
 Then stop: a final message of the handoff path, the shells you killed, and nothing else.
 
