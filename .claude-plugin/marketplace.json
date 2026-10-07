@@ -1,0 +1,15 @@
+{
+  "name": "feder-skills",
+  "description": "Benjamin Feder's public skills for Claude Code.",
+  "owner": {
+    "name": "federbenjamin"
+  },
+  "plugins": [
+    {
+      "name": "feder-skills",
+      "source": "./",
+      "description": "Skills that shape how Claude reasons and explains: full-picture, compare-states, options-analysis, explain-simply, greenfield, afk.",
+      "category": "productivity"
+    }
+  ]
+}
