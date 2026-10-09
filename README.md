@@ -1,12 +1,12 @@
 # feder-skills
 
-<p align="center"><strong>Six Claude Code skills that shape how Claude reasons and explains.</strong></p>
+<p align="center"><strong>Five Claude Code skills that shape how Claude reasons and explains.</strong></p>
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/github/license/federbenjamin/feder-skills" alt="License"></a>
 </p>
 
-feder-skills is a plugin for [Claude Code](https://code.claude.com). It adds six slash commands that change how Claude thinks through a problem and how it presents the result: a rendered map of a system, two states side by side, a decision laid out by its deciding trade-off, a plain explanation, a design freed from the repo's rules, and an unattended working mode. It is for anyone who uses Claude Code on real codebases and wants its reasoning on the page, not only in the answer.
+feder-skills is a plugin for [Claude Code](https://code.claude.com). It adds five slash commands that change how Claude thinks through a problem and how it presents the result: a rendered map of a system, two states side by side, a decision laid out by its deciding trade-off, a plain explanation, and a design freed from the repo's rules. It is for anyone who uses Claude Code on real codebases and wants its reasoning on the page, not only in the answer.
 
 ## Install
 
@@ -23,7 +23,6 @@ claude plugin install feder-skills --marketplace federbenjamin/feder-skills
 - **`/options-analysis`.** Lays out the options for a decision with the trade-off that decides each, recommendation first.
 - **`/explain-simply`.** Explains a thing as if the reader has never seen the work: what it is, what is wrong or changing, why it matters.
 - **`/greenfield`.** Designs as if the repo's rules did not exist, then adjudicates the clean design against them to find rules that have outlived their reason.
-- **`/afk`.** Unattended mode: works through everything queued without stopping, banks the questions only a human can answer, and ends with a handoff.
 
 ## Usage
 
@@ -33,7 +32,6 @@ Each skill runs as `/<name>` in a Claude Code session, with what you want it app
 /full-picture the checkout flow
 /options-analysis where the session cache should live
 /explain-simply this PR
-/afk
 ```
 
 `/full-picture` and `/compare-states` write one HTML file and open it in Claude Code's side panel where the session has one; otherwise they tell you the file's path. Each skill's full instructions are its `skills/<name>/SKILL.md`.

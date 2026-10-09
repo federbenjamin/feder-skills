@@ -1,7 +1,7 @@
 {
   "name": "feder-skills",
   "version": "0.1.0",
-  "description": "Skills that shape how Claude reasons and explains: full-picture, compare-states, options-analysis, explain-simply, greenfield, afk.",
+  "description": "Skills that shape how Claude reasons and explains: full-picture, compare-states, options-analysis, explain-simply, greenfield.",
   "author": {
     "name": "federbenjamin"
   },
