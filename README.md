@@ -24,6 +24,12 @@ claude plugin install feder-skills --marketplace federbenjamin/feder-skills
 - **`/explain-simply`.** Explains a thing as if the reader has never seen the work: what it is, what is wrong or changing, why it matters.
 - **`/greenfield`.** Designs as if the repo's rules did not exist, then adjudicates the clean design against them to find rules that have outlived their reason.
 
+### Agent skills
+
+Skills written for a subagent rather than a slash command; a session or an agent definition preloads them.
+
+- **`unity-editor-ops`.** The operating discipline for an agent that drives a running Unity editor through the Unity CLI: reaching the editor, making changes, the play-mode verification loop, tests, and the failure modes that stall an agent-driven editor. Pairs with Unity's own `unity-cli` skill.
+
 ## Usage
 
 Each skill runs as `/<name>` in a Claude Code session, with what you want it applied to after it:
