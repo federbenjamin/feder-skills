@@ -1,7 +1,7 @@
 {
   "name": "feder-skills",
   "version": "0.1.0",
-  "description": "Skills that shape how Claude reasons and explains: full-picture, compare-states, options-analysis, explain-simply, greenfield.",
+  "description": "Skills that shape how Claude reasons and explains: full-picture, compare-states, options-analysis, explain-simply, greenfield; and blender-to-unity-props for Blender-to-Unity prop imports.",
   "author": {
     "name": "federbenjamin"
   },

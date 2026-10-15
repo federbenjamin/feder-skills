@@ -1,12 +1,12 @@
 # feder-skills
 
-<p align="center"><strong>Five Claude Code skills that shape how Claude reasons and explains.</strong></p>
+<p align="center"><strong>Six Claude Code skills: five that shape how Claude reasons and explains, one that gets Blender props into Unity.</strong></p>
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/github/license/federbenjamin/feder-skills" alt="License"></a>
 </p>
 
-feder-skills is a plugin for [Claude Code](https://code.claude.com). It adds five slash commands that change how Claude thinks through a problem and how it presents the result: a rendered map of a system, two states side by side, a decision laid out by its deciding trade-off, a plain explanation, and a design freed from the repo's rules. It is for anyone who uses Claude Code on real codebases and wants its reasoning on the page, not only in the answer.
+feder-skills is a plugin for [Claude Code](https://code.claude.com). It adds five slash commands that change how Claude thinks through a problem and how it presents the result: a rendered map of a system, two states side by side, a decision laid out by its deciding trade-off, a plain explanation, and a design freed from the repo's rules. A sixth skill is a workflow: modelling props in Blender and exporting FBX files that a Unity project imports at identity rotation and scale. It is for anyone who uses Claude Code on real codebases and wants its reasoning on the page, not only in the answer.
 
 ## Install
 
@@ -22,6 +22,7 @@ claude plugin install feder-skills --marketplace federbenjamin/feder-skills
 - **`/compare-states`.** One self-contained page that sets two or more states of the same mechanism side by side.
 - **`/options-analysis`.** Lays out the options for a decision with the trade-off that decides each, recommendation first.
 - **`/explain-simply`.** Explains a thing as if the reader has never seen the work: what it is, what is wrong or changing, why it matters.
+- **`/blender-to-unity-props`.** Models props in Blender, through the MCP bridge or a headless script, and exports FBX files that import into Unity at rotation 0, scale 1, front toward +Z, with the staging, LFS, and report steps.
 - **`/greenfield`.** Designs as if the repo's rules did not exist, then adjudicates the clean design against them to find rules that have outlived their reason.
 
 ## Usage
